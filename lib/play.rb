@@ -40,6 +40,6 @@ def play
   counter =0
   until counter ==9 do
   loop turn(board)
+    counter +=1
 end
-  counter +=1
 end
