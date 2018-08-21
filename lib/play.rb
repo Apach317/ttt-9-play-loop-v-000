@@ -38,4 +38,5 @@ end
 # Define your play method below
 def play(board)
   turn(board).times = 9
+  display_board(board)
 end
